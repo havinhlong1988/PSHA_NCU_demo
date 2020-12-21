@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nrml
+xmlns="http://openquake.org/xmlns/nrml/0.5"
+xmlns:gml="http://www.opengis.net/gml"
+>
+    <sourceModel
+    name="Example Source Model Containing a Simple Fault Source"
+    >
+        <sourceGroup
+        name="group 1"
+        tectonicRegion="Active Shallow Crust"
+        >
+            <simpleFaultSource
+            id="3"
+            name="Simple Fault Source"
+            tectonicRegion="Active Shallow Crust"
+            >
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            121.4185 24.9925
+							121.4153 25.0009
+							121.4121 25.0075
+							121.412 25.0137
+							121.4108 25.0188
+							121.4125 25.0283
+							121.4159 25.0306
+							121.4213 25.041
+							121.4267 25.0484
+							121.4315 25.063
+							121.4319 25.0701
+							121.4335 25.0774
+							121.441 25.089
+							121.4458 25.0938
+							121.451 25.1046
+							121.4597 25.1134
+							121.463 25.1166
+							121.4661 25.1256
+							121.4687 25.1292
+							121.478 25.1359
+							121.4881 25.1404
+							121.4931 25.1461
+							121.5015 25.1492
+							121.5162 25.1582
+							121.5248 25.1658
+							121.5296 25.1664
+							121.5371 25.1762
+							121.5487 25.1818
+							121.5545 25.1866
+							121.5636 25.1955
+							121.5698 25.199
+							121.572 25.198
+							121.5735 25.2035
+							121.5816 25.2066
+							121.5898 25.2089
+							121.5915 25.2117
+							121.5996 25.2187
+							121.6081 25.2255
+							121.6128 25.2277
+							121.6193 25.2317
+							121.6276 25.2355
+							121.6325 25.2428
+							121.6523 25.2485
+							121.6712 25.2534
+							121.6791 25.2576
+							121.6914 25.2683
+							121.6993 25.2808
+							121.7159 25.2843
+							121.7278 25.29
+							121.7323 25.3058
+							121.7376 25.3105
+							121.7475 25.3123
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        3.0000000E+01
+                    </dip>
+                    <upperSeismoDepth>
+                        5.0000000E+00
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        1.5000000E+01
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    2.0000000E+00
+                </ruptAspectRatio>
+                <truncGutenbergRichterMFD aValue="4.2000000E+00" bValue="9.0000000E-01" maxMag="7.0000000E+00" minMag="6.5000000E+00"/>
+                <rake>
+                    9.0000000E+01
+                </rake>
+            </simpleFaultSource>
+        </sourceGroup>
+    </sourceModel>
+</nrml>
